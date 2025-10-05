@@ -1,0 +1,33 @@
+<!-- Before and after skincare results -->
+<svg width="800" height="400" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgBefore" x1="0%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" style="stop-color:#fef2f2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#fecaca;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="bgAfter" x1="50%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f0fdf4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#bbf7d0;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Before side -->
+  <rect x="0" y="0" width="400" height="400" fill="url(#bgBefore)"/>
+  <ellipse cx="200" cy="200" rx="80" ry="100" fill="#fca5a5" opacity="0.8"/>
+  <text x="200" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="#dc2626" font-weight="bold">BEFORE</text>
+  <text x="200" y="350" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#dc2626">Dull, uneven skin</text>
+  
+  <!-- Divider -->
+  <line x1="400" y1="0" x2="400" y2="400" stroke="#6b7280" stroke-width="2"/>
+  
+  <!-- After side -->
+  <rect x="400" y="0" width="400" height="400" fill="url(#bgAfter)"/>
+  <ellipse cx="600" cy="200" rx="80" ry="100" fill="#86efac" opacity="0.8"/>
+  <text x="600" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="#16a34a" font-weight="bold">AFTER</text>
+  <text x="600" y="350" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#16a34a">Radiant, glowing skin</text>
+  
+  <!-- Sparkle effects on after side -->
+  <path d="M550 120 L555 130 L560 120 L555 110 Z" fill="#fbbf24" opacity="0.8"/>
+  <path d="M650 140 L655 150 L660 140 L655 130 Z" fill="#fbbf24" opacity="0.7"/>
+  <path d="M580 280 L585 290 L590 280 L585 270 Z" fill="#fbbf24" opacity="0.9"/>
+</svg>
