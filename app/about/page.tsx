@@ -41,19 +41,19 @@ const team = [
   {
     name: "Dr. Sarah Chen",
     role: "Founder & Chief Formulator",
-    image: "/team-member-1.jpg",
+    image: "https://picsum.photos/seed/pureskin-team-1/600/600",
     bio: "With over 15 years in dermatological research, Dr. Chen founded PureSkin to make premium skincare accessible to everyone.",
   },
   {
     name: "Maria Rodriguez",
     role: "Head of Product Development",
-    image: "/team-member-2.jpg",
+    image: "https://picsum.photos/seed/pureskin-team-2/600/600",
     bio: "Maria brings 12 years of cosmetic chemistry expertise, ensuring every product meets our strict quality standards.",
   },
   {
     name: "James Thompson",
     role: "Sustainability Director",
-    image: "/team-member-3.jpg",
+    image: "https://picsum.photos/seed/pureskin-team-3/600/600",
     bio: "James leads our commitment to sustainable practices and ethical sourcing of ingredients worldwide.",
   },
 ]
@@ -98,11 +98,26 @@ export default function AboutPage() {
                   our commitment to both your skin's health and our planet's wellbeing.
                 </p>
               </div>
-              <div className="relative">
+              <div className="relative grid grid-cols-2 gap-3">
                 <img
-                  src="/natural-skincare-ingredients-botanical.jpg"
+                  src="https://picsum.photos/seed/pureskin-about-1/900/700"
                   alt="Natural skincare ingredients"
-                  className="rounded-lg shadow-lg w-full h-96 object-cover"
+                  className="rounded-lg shadow-lg w-full h-48 md:h-56 object-cover"
+                />
+                <img
+                  src="https://picsum.photos/seed/pureskin-about-2/900/700"
+                  alt="Sustainable practices"
+                  className="rounded-lg shadow-lg w-full h-48 md:h-56 object-cover"
+                />
+                <img
+                  src="https://picsum.photos/seed/pureskin-about-3/900/700"
+                  alt="Eco-friendly packaging"
+                  className="rounded-lg shadow-lg w-full h-48 md:h-56 object-cover"
+                />
+                <img
+                  src="https://picsum.photos/seed/pureskin-about-4/900/700"
+                  alt="Community focused"
+                  className="rounded-lg shadow-lg w-full h-48 md:h-56 object-cover"
                 />
               </div>
             </div>
@@ -192,11 +207,26 @@ export default function AboutPage() {
         <section className="py-16">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-              <div className="relative">
+              <div className="relative grid grid-cols-2 gap-3">
                 <img
-                  src="/sustainable-packaging-eco-friendly.jpg"
+                  src="https://picsum.photos/seed/pureskin-sustain-1/900/700"
                   alt="Sustainable packaging"
-                  className="rounded-lg shadow-lg w-full h-96 object-cover"
+                  className="rounded-lg shadow-lg w-full h-48 md:h-56 object-cover"
+                />
+                <img
+                  src="https://picsum.photos/seed/pureskin-sustain-2/900/700"
+                  alt="Eco materials"
+                  className="rounded-lg shadow-lg w-full h-48 md:h-56 object-cover"
+                />
+                <img
+                  src="https://picsum.photos/seed/pureskin-sustain-3/900/700"
+                  alt="Recyclable packaging"
+                  className="rounded-lg shadow-lg w-full h-48 md:h-56 object-cover"
+                />
+                <img
+                  src="https://picsum.photos/seed/pureskin-sustain-4/900/700"
+                  alt="Green operations"
+                  className="rounded-lg shadow-lg w-full h-48 md:h-56 object-cover"
                 />
               </div>
               <div>

@@ -47,7 +47,8 @@ export default function ContactPage() {
       <Header />
       <main className="flex-1">
         {/* Hero Section */}
-        <section className="py-16 bg-gradient-to-br from-muted/50 to-background">
+        <section className="py-16 bg-gradient-to-br from-muted/50 to-background relative overflow-hidden">
+          <div className="absolute inset-0 bg-[url('https://picsum.photos/seed/pureskin-contact-bg/2400/1400')] bg-cover bg-center opacity-10"></div>
           <div className="container mx-auto px-4 sm:px-6 lg:px-8">
             <div className="max-w-4xl mx-auto text-center">
               <Badge className="mb-4" variant="secondary">
@@ -68,6 +69,13 @@ export default function ContactPage() {
         <section className="py-16">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
+              <div className="md:col-span-2 order-last md:order-first">
+                <img
+                  src="https://picsum.photos/seed/pureskin-contact-hero/1200/700"
+                  alt="Our studio"
+                  className="w-full h-48 md:h-64 object-cover rounded-lg shadow"
+                />
+              </div>
               <Card className="text-center hover:shadow-lg transition-shadow duration-300">
                 <CardContent className="p-6">
                   <div className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-primary/10 mb-4">
