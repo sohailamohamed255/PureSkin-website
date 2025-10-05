@@ -5,6 +5,7 @@ export function HeroSection() {
   return (
     <section className="relative min-h-[80vh] flex items-center justify-center bg-gradient-to-br from-muted/50 to-background">
       <div className="absolute inset-0 bg-[url('/serene-spa-setting-with-natural-skincare-products-.jpg')] bg-cover bg-center opacity-20"></div>
+      <div className="absolute inset-0 bg-[url('/spa-treatment-room-background.jpg')] bg-cover bg-center opacity-10"></div>
       <div className="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-4xl md:text-6xl font-bold text-foreground mb-6 text-balance">

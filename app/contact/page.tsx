@@ -47,8 +47,9 @@ export default function ContactPage() {
       <Header />
       <main className="flex-1">
         {/* Hero Section */}
-        <section className="py-16 bg-gradient-to-br from-muted/50 to-background">
-          <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+        <section className="relative py-16 bg-gradient-to-br from-muted/50 to-background">
+          <div className="absolute inset-0 bg-[url('/spa-treatment-room-background.jpg')] bg-cover bg-center opacity-10"></div>
+          <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div className="max-w-4xl mx-auto text-center">
               <Badge className="mb-4" variant="secondary">
                 Get in Touch
