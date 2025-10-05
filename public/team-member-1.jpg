@@ -1,0 +1,13 @@
+<!-- This would be a professional headshot of Dr. Sarah Chen -->
+<svg width="300" height="300" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f8fafc;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e2e8f0;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="300" height="300" fill="url(#bg1)"/>
+  <circle cx="150" cy="120" r="50" fill="#cbd5e1"/>
+  <path d="M100 220 Q150 180 200 220 L200 300 L100 300 Z" fill="#cbd5e1"/>
+  <text x="150" y="280" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#64748b">Dr. Sarah Chen</text>
+</svg>

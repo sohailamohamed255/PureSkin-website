@@ -287,6 +287,56 @@ export default function ContactPage() {
           </div>
         </section>
 
+        {/* Office Gallery */}
+        <section className="py-16">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl font-bold text-foreground mb-4">Visit Our Space</h2>
+              <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+                Take a look at our modern, welcoming office where our team works to bring you the best skincare experience
+              </p>
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+              <div className="relative overflow-hidden rounded-lg group">
+                <img
+                  src="/spa-office-interior.jpg"
+                  alt="PureSkin Office Interior"
+                  className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
+                />
+                <div className="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-colors duration-300"></div>
+                <div className="absolute bottom-4 left-4 text-white">
+                  <h3 className="font-semibold">Reception Area</h3>
+                  <p className="text-sm opacity-90">Welcome to PureSkin</p>
+                </div>
+              </div>
+              <div className="relative overflow-hidden rounded-lg group">
+                <img
+                  src="/customer-consultation-room.jpg"
+                  alt="Customer Consultation Room"
+                  className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
+                />
+                <div className="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-colors duration-300"></div>
+                <div className="absolute bottom-4 left-4 text-white">
+                  <h3 className="font-semibold">Consultation Room</h3>
+                  <p className="text-sm opacity-90">Personalized skincare advice</p>
+                </div>
+              </div>
+              <div className="relative overflow-hidden rounded-lg group">
+                <img
+                  src="/skincare-routine-lifestyle.jpg"
+                  alt="Skincare Routine Setup"
+                  className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
+                />
+                <div className="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-colors duration-300"></div>
+                <div className="absolute bottom-4 left-4 text-white">
+                  <h3 className="font-semibold">Product Testing</h3>
+                  <p className="text-sm opacity-90">Try before you buy</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* Business Hours */}
         <section className="py-16 bg-muted/30">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8">

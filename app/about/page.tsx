@@ -109,8 +109,70 @@ export default function AboutPage() {
           </div>
         </section>
 
-        {/* Values Section */}
+        {/* Ingredients Showcase */}
+        <section className="py-16">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+              <div>
+                <h2 className="text-3xl font-bold text-foreground mb-6">Science Meets Nature</h2>
+                <p className="text-muted-foreground mb-6 leading-relaxed">
+                  Our formulations combine the best of nature with cutting-edge skincare science. Each ingredient is 
+                  carefully selected for its proven benefits and sustainable sourcing practices.
+                </p>
+                <div className="grid grid-cols-2 gap-4">
+                  <div className="text-center p-4 bg-muted/30 rounded-lg">
+                    <div className="text-2xl font-bold text-primary mb-2">99%</div>
+                    <div className="text-sm text-muted-foreground">Natural Ingredients</div>
+                  </div>
+                  <div className="text-center p-4 bg-muted/30 rounded-lg">
+                    <div className="text-2xl font-bold text-primary mb-2">15+</div>
+                    <div className="text-sm text-muted-foreground">Active Compounds</div>
+                  </div>
+                  <div className="text-center p-4 bg-muted/30 rounded-lg">
+                    <div className="text-2xl font-bold text-primary mb-2">0</div>
+                    <div className="text-sm text-muted-foreground">Harmful Chemicals</div>
+                  </div>
+                  <div className="text-center p-4 bg-muted/30 rounded-lg">
+                    <div className="text-2xl font-bold text-primary mb-2">100%</div>
+                    <div className="text-sm text-muted-foreground">Cruelty-Free</div>
+                  </div>
+                </div>
+              </div>
+              <div className="relative">
+                <img
+                  src="/ingredient-showcase.jpg"
+                  alt="Natural skincare ingredients showcase"
+                  className="rounded-lg shadow-lg w-full h-96 object-cover"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Results Section */}
         <section className="py-16 bg-muted/30">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl font-bold text-foreground mb-4">Real Results</h2>
+              <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+                See the transformative power of our natural skincare formulations
+              </p>
+            </div>
+            <div className="max-w-4xl mx-auto">
+              <img
+                src="/before-after-skincare.jpg"
+                alt="Before and after skincare results"
+                className="rounded-lg shadow-lg w-full h-64 object-cover"
+              />
+              <p className="text-center text-sm text-muted-foreground mt-4">
+                *Results may vary. Individual results shown after 8 weeks of consistent use.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        {/* Values Section */}
+        <section className="py-16">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-12">
               <h2 className="text-3xl font-bold text-foreground mb-4">Our Values</h2>
@@ -183,6 +245,41 @@ export default function AboutPage() {
               <div>
                 <div className="text-4xl font-bold mb-2">25+</div>
                 <div className="text-primary-foreground/80">Award-Winning Products</div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Lifestyle Gallery */}
+        <section className="py-16 bg-muted/30">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl font-bold text-foreground mb-4">Natural Beauty in Action</h2>
+              <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+                See how our products fit seamlessly into your daily routine for naturally radiant skin
+              </p>
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+              <div className="relative overflow-hidden rounded-lg">
+                <img
+                  src="/skincare-routine-lifestyle.jpg"
+                  alt="Daily skincare routine"
+                  className="w-full h-64 object-cover hover:scale-105 transition-transform duration-300"
+                />
+              </div>
+              <div className="relative overflow-hidden rounded-lg">
+                <img
+                  src="/natural-beauty-portrait.jpg"
+                  alt="Natural beauty results"
+                  className="w-full h-64 object-cover hover:scale-105 transition-transform duration-300"
+                />
+              </div>
+              <div className="relative overflow-hidden rounded-lg">
+                <img
+                  src="/hero-natural-glow.jpg"
+                  alt="Natural glow effect"
+                  className="w-full h-64 object-cover hover:scale-105 transition-transform duration-300"
+                />
               </div>
             </div>
           </div>

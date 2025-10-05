@@ -11,8 +11,7 @@ export function Footer() {
           {/* Brand */}
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
-              <div className="h-8 w-8 rounded-full bg-primary"></div>
-              <span className="text-xl font-bold text-foreground">PureSkin</span>
+              <img src="/pureskin-logo.svg" alt="PureSkin Logo" className="h-8 w-auto" />
             </div>
             <p className="text-muted-foreground text-sm">
               Premium natural skincare products that nurture and protect your skin with the finest ingredients.

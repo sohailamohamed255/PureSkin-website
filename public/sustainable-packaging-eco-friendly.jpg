@@ -1,0 +1,24 @@
+<!-- Sustainable and eco-friendly packaging -->
+<svg width="600" height="400" viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgSustain" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fefce8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#fef3c7;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#bgSustain)"/>
+  
+  <!-- Recycling symbols -->
+  <path d="M150 100 L170 140 L130 140 Z" fill="#22c55e" opacity="0.8"/>
+  <path d="M450 120 L470 160 L430 160 Z" fill="#16a34a" opacity="0.7"/>
+  
+  <!-- Eco-friendly containers -->
+  <rect x="250" y="150" width="50" height="100" rx="10" fill="#84cc16" opacity="0.6"/>
+  <rect x="320" y="170" width="45" height="80" rx="8" fill="#65a30d" opacity="0.7"/>
+  
+  <!-- Leaves -->
+  <ellipse cx="200" cy="200" rx="25" ry="15" fill="#22c55e" opacity="0.8"/>
+  <ellipse cx="400" cy="180" rx="30" ry="18" fill="#16a34a" opacity="0.6"/>
+  
+  <text x="300" y="320" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#365314" font-weight="bold">Sustainable Packaging</text>
+</svg>

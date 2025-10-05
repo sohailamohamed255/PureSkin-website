@@ -1,0 +1,31 @@
+<!-- Customer consultation room -->
+<svg width="600" height="400" viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgConsult" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fef7ed;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#fed7aa;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#bgConsult)"/>
+  
+  <!-- Consultation table -->
+  <ellipse cx="300" cy="250" rx="100" ry="50" fill="#ea580c" opacity="0.7"/>
+  
+  <!-- Chairs around table -->
+  <circle cx="250" cy="200" r="25" fill="#9a3412" opacity="0.8"/>
+  <circle cx="350" cy="200" r="25" fill="#9a3412" opacity="0.8"/>
+  
+  <!-- Skincare products on table -->
+  <rect x="280" y="230" width="15" height="30" rx="7" fill="#fb923c" opacity="0.8"/>
+  <rect x="305" y="235" width="12" height="25" rx="6" fill="#fb923c" opacity="0.8"/>
+  <circle cx="330" cy="245" r="8" fill="#fb923c" opacity="0.8"/>
+  
+  <!-- Wall art/mirror -->
+  <rect x="450" y="100" width="80" height="60" rx="5" fill="#f3f4f6" opacity="0.8"/>
+  
+  <!-- Plants -->
+  <ellipse cx="100" cy="180" rx="15" ry="30" fill="#22c55e" opacity="0.7"/>
+  <ellipse cx="500" cy="160" rx="20" ry="35" fill="#16a34a" opacity="0.6"/>
+  
+  <text x="300" y="350" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#9a3412" font-weight="bold">Consultation Room</text>
+</svg>
