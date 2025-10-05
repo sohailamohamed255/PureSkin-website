@@ -45,6 +45,42 @@ const featuredProducts = [
     reviews: 73,
     badge: "Premium",
   },
+  {
+    id: 5,
+    name: "Retinol Night Serum",
+    price: 49.99,
+    image: "/retinol-night-serum-bottle.jpg",
+    rating: 4.7,
+    reviews: 98,
+    badge: "New",
+  },
+  {
+    id: 6,
+    name: "Hyaluronic Acid Moisturizer",
+    price: 29.99,
+    image: "/hyaluronic-acid-moisturizer-jar.jpg",
+    rating: 4.8,
+    reviews: 142,
+    badge: null,
+  },
+  {
+    id: 7,
+    name: "Niacinamide Pore Refining Serum",
+    price: 32.99,
+    image: "/niacinamide-serum-bottle.jpg",
+    rating: 4.5,
+    reviews: 98,
+    badge: null,
+  },
+  {
+    id: 8,
+    name: "Soothing Aloe Gel",
+    price: 19.99,
+    image: "/aloe-vera-gel-tube.jpg",
+    rating: 4.6,
+    reviews: 89,
+    badge: "Natural",
+  },
 ]
 
 export function FeaturedProducts() {

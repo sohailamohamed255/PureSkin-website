@@ -16,7 +16,11 @@ export function Header() {
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2">
-            <div className="h-8 w-8 rounded-full bg-primary"></div>
+            <img 
+              src="/pureskin-logo.png" 
+              alt="PureSkin Logo" 
+              className="h-8 w-8 rounded-full object-cover"
+            />
             <span className="text-xl font-bold text-foreground">PureSkin</span>
           </Link>
 

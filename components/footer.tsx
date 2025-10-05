@@ -11,7 +11,11 @@ export function Footer() {
           {/* Brand */}
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
-              <div className="h-8 w-8 rounded-full bg-primary"></div>
+              <img 
+                src="/pureskin-logo.png" 
+                alt="PureSkin Logo" 
+                className="h-8 w-8 rounded-full object-cover"
+              />
               <span className="text-xl font-bold text-foreground">PureSkin</span>
             </div>
             <p className="text-muted-foreground text-sm">
