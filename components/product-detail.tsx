@@ -89,6 +89,20 @@ export function ProductDetail({ product }: ProductDetailProps) {
               </button>
             ))}
           </div>
+
+          {/* Extra visuals below thumbnails */}
+          <div className="grid grid-cols-2 gap-2 mt-2">
+            <img
+              src={`https://picsum.photos/seed/pd-${product.id}-a/900/700`}
+              alt={`${product.name} lifestyle A`}
+              className="w-full h-28 object-cover rounded-md"
+            />
+            <img
+              src={`https://picsum.photos/seed/pd-${product.id}-b/900/700`}
+              alt={`${product.name} lifestyle B`}
+              className="w-full h-28 object-cover rounded-md"
+            />
+          </div>
         </div>
 
         {/* Product Info */}

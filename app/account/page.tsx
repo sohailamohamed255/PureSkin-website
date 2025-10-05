@@ -52,13 +52,13 @@ export default function AccountPage() {
       id: 1,
       name: "Vitamin C Brightening Serum",
       price: 45.99,
-      image: "/vitamin-c-serum.png",
+      image: "https://picsum.photos/seed/pureskin-serum-fav/300/300",
     },
     {
       id: 2,
       name: "Hydrating Night Cream",
       price: 38.99,
-      image: "/luxury-night-cream-jar.jpg",
+      image: "https://picsum.photos/seed/pureskin-cream-fav/300/300",
     },
   ])
 
