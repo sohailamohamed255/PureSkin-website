@@ -2,6 +2,7 @@ import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
 import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
+import { AboutGallery } from "@/components/about-gallery"
 import { Leaf, Heart, Award, Users, Shield, Sparkles } from "lucide-react"
 
 const values = [
@@ -98,11 +99,16 @@ export default function AboutPage() {
                   our commitment to both your skin's health and our planet's wellbeing.
                 </p>
               </div>
-              <div className="relative">
+              <div className="relative grid grid-cols-2 gap-4">
                 <img
                   src="/natural-skincare-ingredients-botanical.jpg"
                   alt="Natural skincare ingredients"
-                  className="rounded-lg shadow-lg w-full h-96 object-cover"
+                  className="rounded-lg shadow-lg w-full h-56 object-cover"
+                />
+                <img
+                  src="/organic-botanical-ingredients.jpg"
+                  alt="Organic botanical ingredients"
+                  className="rounded-lg shadow-lg w-full h-56 object-cover mt-8"
                 />
               </div>
             </div>
@@ -188,15 +194,23 @@ export default function AboutPage() {
           </div>
         </section>
 
+        {/* Image Gallery Section */}
+        <AboutGallery />
+
         {/* Sustainability Section */}
         <section className="py-16">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-              <div className="relative">
+              <div className="relative grid grid-cols-2 gap-4">
                 <img
                   src="/sustainable-packaging-eco-friendly.jpg"
                   alt="Sustainable packaging"
-                  className="rounded-lg shadow-lg w-full h-96 object-cover"
+                  className="rounded-lg shadow-lg w-full h-56 object-cover"
+                />
+                <img
+                  src="/natural-ingredients-herbs.jpg"
+                  alt="Natural herbs and ingredients"
+                  className="rounded-lg shadow-lg w-full h-56 object-cover mt-8"
                 />
               </div>
               <div>

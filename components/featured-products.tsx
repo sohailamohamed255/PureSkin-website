@@ -45,6 +45,43 @@ const featuredProducts = [
     reviews: 73,
     badge: "Premium",
   },
+  {
+    id: 5,
+    name: "Hydrating Toner Mist",
+    price: 29.99,
+    image: "/hydrating-toner-mist.jpg",
+    rating: 4.8,
+    reviews: 142,
+    badge: null,
+  },
+  {
+    id: 6,
+    name: "Anti-Aging Retinol Cream",
+    price: 64.99,
+    originalPrice: 79.99,
+    image: "/anti-aging-retinol-cream.jpg",
+    rating: 4.9,
+    reviews: 98,
+    badge: "Premium",
+  },
+  {
+    id: 7,
+    name: "Exfoliating Face Scrub",
+    price: 32.99,
+    image: "/exfoliating-face-scrub.jpg",
+    rating: 4.7,
+    reviews: 167,
+    badge: "Best Seller",
+  },
+  {
+    id: 8,
+    name: "Nourishing Face Oil",
+    price: 48.99,
+    image: "/nourishing-face-oil.jpg",
+    rating: 4.8,
+    reviews: 111,
+    badge: "New",
+  },
 ]
 
 export function FeaturedProducts() {
