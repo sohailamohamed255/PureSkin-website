@@ -10,7 +10,7 @@ const relatedProducts = [
     id: 3,
     name: "Gentle Cleansing Foam",
     price: 24.99,
-    image: "/gentle-face-cleanser-pump-bottle.jpg",
+    image: "/gentle-face-cleanser-pump-bottle-with-natural-ingr.jpg",
     rating: 4.7,
     reviews: 156,
     badge: null,
@@ -19,7 +19,7 @@ const relatedProducts = [
     id: 4,
     name: "Anti-Aging Eye Cream",
     price: 52.99,
-    image: "/premium-eye-cream-tube.jpg",
+    image: "/premium-eye-cream-tube-with-elegant-packaging.jpg",
     rating: 4.6,
     reviews: 73,
     badge: "Premium",
@@ -28,7 +28,7 @@ const relatedProducts = [
     id: 5,
     name: "Niacinamide Pore Refining Serum",
     price: 32.99,
-    image: "/niacinamide-serum-bottle.jpg",
+    image: "/vitamin-c-serum-bottle-with-dropper-on-white-backg.jpg",
     rating: 4.5,
     reviews: 98,
     badge: null,
@@ -37,7 +37,7 @@ const relatedProducts = [
     id: 6,
     name: "Hyaluronic Acid Moisturizer",
     price: 29.99,
-    image: "/hyaluronic-acid-moisturizer-jar.jpg",
+    image: "/luxury-night-cream-jar-with-gold-accents.jpg",
     rating: 4.8,
     reviews: 142,
     badge: null,
@@ -54,8 +54,11 @@ export function RelatedProducts({ currentProductId, category }: RelatedProductsP
   const filteredProducts = relatedProducts.filter((product) => product.id !== currentProductId).slice(0, 4)
 
   return (
-    <section className="py-16 bg-muted/30">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+    <section className="py-16 bg-muted/30 relative">
+      {/* Background pattern */}
+      <div className="absolute inset-0 bg-[url('/serene-spa-setting-with-natural-skincare-products-.jpg')] bg-cover bg-center opacity-5"></div>
+      
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold text-foreground mb-4">You Might Also Like</h2>
           <p className="text-lg text-muted-foreground">
