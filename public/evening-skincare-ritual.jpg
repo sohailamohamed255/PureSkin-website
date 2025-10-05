@@ -1,0 +1,36 @@
+<!-- Evening skincare ritual -->
+<svg width="600" height="400" viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgEvening" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e1b4b;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#312e81;stop-opacity:0.6" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#bgEvening)"/>
+  
+  <!-- Dark overlay for evening mood -->
+  <rect width="600" height="400" fill="#1e1b4b" opacity="0.3"/>
+  
+  <!-- Bathroom counter -->
+  <rect x="50" y="300" width="500" height="60" rx="10" fill="#374151" opacity="0.8"/>
+  
+  <!-- Evening products -->
+  <rect x="120" y="270" width="30" height="50" rx="5" fill="#6366f1" opacity="0.9"/>
+  <rect x="180" y="260" width="25" height="60" rx="5" fill="#a855f7" opacity="0.9"/>
+  <circle cx="240" cy="290" r="22" fill="#ec4899" opacity="0.9"/>
+  <rect x="290" y="265" width="35" height="55" rx="5" fill="#14b8a6" opacity="0.9"/>
+  <ellipse cx="360" cy="285" rx="28" ry="18" fill="#f59e0b" opacity="0.9"/>
+  
+  <!-- Candles for ambiance -->
+  <rect x="450" y="250" width="8" height="30" rx="4" fill="#fbbf24" opacity="0.8"/>
+  <rect x="470" y="245" width="8" height="35" rx="4" fill="#fbbf24" opacity="0.8"/>
+  <ellipse cx="454" cy="245" rx="3" ry="8" fill="#f97316" opacity="0.9"/>
+  <ellipse cx="474" cy="240" rx="3" ry="8" fill="#f97316" opacity="0.9"/>
+  
+  <!-- Stars -->
+  <path d="M100 80 L105 90 L110 80 L105 70 Z" fill="#fbbf24" opacity="0.7"/>
+  <path d="M500 60 L505 70 L510 60 L505 50 Z" fill="#fbbf24" opacity="0.8"/>
+  <path d="M150 50 L155 60 L160 50 L155 40 Z" fill="#fbbf24" opacity="0.6"/>
+  
+  <text x="300" y="380" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#c084fc" font-weight="bold">Evening Ritual</text>
+</svg>

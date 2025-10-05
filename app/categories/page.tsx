@@ -53,11 +53,18 @@ export default function CategoriesPage() {
     <div className="min-h-screen flex flex-col">
       <Header />
       <main className="flex-1">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
-          <div className="mb-8">
+        {/* Categories Hero Banner */}
+        <section className="relative py-16 bg-gradient-to-br from-muted/50 to-background">
+          <div className="absolute inset-0 bg-[url('/natural-beauty-portrait.jpg')] bg-cover bg-center opacity-25"></div>
+          <div className="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h1 className="text-3xl md:text-4xl font-bold text-foreground mb-4">Shop by Category</h1>
-            <p className="text-lg text-muted-foreground">Find the perfect products for your skincare routine</p>
+            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+              Find the perfect products for your skincare routine, organized by category to make your shopping experience effortless
+            </p>
           </div>
+        </section>
+
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {categories.map((category) => (
