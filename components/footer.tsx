@@ -5,13 +5,18 @@ import { Facebook, Instagram, Twitter, Mail } from "lucide-react"
 
 export function Footer() {
   return (
-    <footer className="bg-muted/50 border-t">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <footer className="bg-muted/50 border-t relative">
+      {/* Background pattern */}
+      <div className="absolute inset-0 bg-[url('/serene-spa-setting-with-natural-skincare-products-.jpg')] bg-cover bg-center opacity-5"></div>
+      
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12 relative z-10">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Brand */}
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
-              <div className="h-8 w-8 rounded-full bg-primary"></div>
+              <div className="h-8 w-8 rounded-full bg-primary flex items-center justify-center">
+                <span className="text-white text-sm font-bold">P</span>
+              </div>
               <span className="text-xl font-bold text-foreground">PureSkin</span>
             </div>
             <p className="text-muted-foreground text-sm">

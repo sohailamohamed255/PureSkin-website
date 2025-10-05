@@ -41,19 +41,19 @@ const team = [
   {
     name: "Dr. Sarah Chen",
     role: "Founder & Chief Formulator",
-    image: "/team-member-1.jpg",
+    image: "/placeholder-user.jpg",
     bio: "With over 15 years in dermatological research, Dr. Chen founded PureSkin to make premium skincare accessible to everyone.",
   },
   {
     name: "Maria Rodriguez",
     role: "Head of Product Development",
-    image: "/team-member-2.jpg",
+    image: "/placeholder-user.jpg",
     bio: "Maria brings 12 years of cosmetic chemistry expertise, ensuring every product meets our strict quality standards.",
   },
   {
     name: "James Thompson",
     role: "Sustainability Director",
-    image: "/team-member-3.jpg",
+    image: "/placeholder-user.jpg",
     bio: "James leads our commitment to sustainable practices and ethical sourcing of ingredients worldwide.",
   },
 ]
@@ -100,10 +100,17 @@ export default function AboutPage() {
               </div>
               <div className="relative">
                 <img
-                  src="/natural-skincare-ingredients-botanical.jpg"
+                  src="/serene-spa-setting-with-natural-skincare-products-.jpg"
                   alt="Natural skincare ingredients"
                   className="rounded-lg shadow-lg w-full h-96 object-cover"
                 />
+                {/* Overlay product images */}
+                <div className="absolute -top-4 -right-4 w-20 h-20 rounded-full overflow-hidden shadow-lg">
+                  <img src="/vitamin-c-serum-bottle-with-dropper-on-white-backg.jpg" alt="Vitamin C Serum" className="w-full h-full object-cover" />
+                </div>
+                <div className="absolute -bottom-4 -left-4 w-16 h-16 rounded-full overflow-hidden shadow-lg">
+                  <img src="/premium-eye-cream-tube-with-elegant-packaging.jpg" alt="Eye Cream" className="w-full h-full object-cover" />
+                </div>
               </div>
             </div>
           </div>
@@ -194,10 +201,17 @@ export default function AboutPage() {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div className="relative">
                 <img
-                  src="/sustainable-packaging-eco-friendly.jpg"
+                  src="/luxury-night-cream-jar-with-gold-accents.jpg"
                   alt="Sustainable packaging"
                   className="rounded-lg shadow-lg w-full h-96 object-cover"
                 />
+                {/* Additional product images for visual appeal */}
+                <div className="absolute top-4 right-4 w-16 h-16 rounded-full overflow-hidden shadow-lg border-2 border-white">
+                  <img src="/gentle-face-cleanser-pump-bottle-with-natural-ingr.jpg" alt="Natural cleanser" className="w-full h-full object-cover" />
+                </div>
+                <div className="absolute bottom-4 left-4 w-12 h-12 rounded-full overflow-hidden shadow-lg border-2 border-white">
+                  <img src="/vitamin-c-serum-bottle-with-dropper-on-white-backg.jpg" alt="Vitamin C" className="w-full h-full object-cover" />
+                </div>
               </div>
               <div>
                 <h2 className="text-3xl font-bold text-foreground mb-6">Committed to Sustainability</h2>
