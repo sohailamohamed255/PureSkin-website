@@ -47,8 +47,9 @@ export default function ContactPage() {
       <Header />
       <main className="flex-1">
         {/* Hero Section */}
-        <section className="py-16 bg-gradient-to-br from-muted/50 to-background">
-          <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+        <section className="relative py-16 bg-gradient-to-br from-muted/50 to-background overflow-hidden">
+          <div className="absolute inset-0 bg-[url('/spa-wellness-scene.jpg')] bg-cover bg-center opacity-10"></div>
+          <div className="relative container mx-auto px-4 sm:px-6 lg:px-8">
             <div className="max-w-4xl mx-auto text-center">
               <Badge className="mb-4" variant="secondary">
                 Get in Touch
@@ -281,6 +282,50 @@ export default function ContactPage() {
                       </p>
                     </CardContent>
                   </Card>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Customer Stories Section */}
+        <section className="py-16 bg-background">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="text-center mb-12">
+              <h2 className="text-2xl font-bold text-foreground mb-4">Happy to Help</h2>
+              <p className="text-muted-foreground max-w-2xl mx-auto">
+                Our dedicated team is committed to providing you with exceptional service and skincare expertise
+              </p>
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              <div className="relative rounded-lg overflow-hidden h-64">
+                <img
+                  src="/happy-customer-using-product.jpg"
+                  alt="Happy customer"
+                  className="w-full h-full object-cover"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-6">
+                  <p className="text-white font-medium">Expert Advice</p>
+                </div>
+              </div>
+              <div className="relative rounded-lg overflow-hidden h-64">
+                <img
+                  src="/skincare-routine-lifestyle.jpg"
+                  alt="Skincare consultation"
+                  className="w-full h-full object-cover"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-6">
+                  <p className="text-white font-medium">Personalized Support</p>
+                </div>
+              </div>
+              <div className="relative rounded-lg overflow-hidden h-64">
+                <img
+                  src="/product-ingredients-natural.jpg"
+                  alt="Product recommendations"
+                  className="w-full h-full object-cover"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-6">
+                  <p className="text-white font-medium">Product Guidance</p>
                 </div>
               </div>
             </div>
